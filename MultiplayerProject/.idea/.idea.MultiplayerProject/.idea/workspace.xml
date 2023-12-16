@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e64f5ff7-0e69-4610-b32b-3b2ef753acf9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/105DA115-9EC9-496A-B931-0694C7B11DD2/72/48e3cdd8/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIPlayerJoinPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Tycoon/livestock-corp/Assets/Scripts/Common/Extensions/GameObjectExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87F07016-7A76-4310-8CC6-1EF0492F958C/ae/4da9315b/Rigidbody.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Input/InputDevice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Input/CustomInputDevice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Input/InputHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Helpers/ObservableList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Extentions/Vector3Extensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/EntitySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIPlayerJoinContent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIPlayerJoinPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayerInputSetter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Extensions/Vector3Extensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Input/InputRouter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Extensions/ObjectExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayerController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2YH6BRbzBAIME5mvv5KiKCdeuH3" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1700921638916">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1700921638916" />
+  </component>
+</project>
