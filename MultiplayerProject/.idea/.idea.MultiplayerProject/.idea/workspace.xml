@@ -20,14 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e64f5ff7-0e69-4610-b32b-3b2ef753acf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/BasePlayerState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/BasePlayerState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/FuncPredicate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/FuncPredicate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/IPredicate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/IPredicate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/ITransition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/ITransition.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/StateMachine.StateNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/StateMachine.StateNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/StateMachine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/StateMachine.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/Transition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/Transition.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiplayerProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiplayerProject/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiplayerProject/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiplayerProject/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiplayerProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiplayerProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/PlayerBase.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/PlayerBase.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/PlayerBase.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/PlayerBase.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerInputSetter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerInputSetter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerView.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +56,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/105DA115-9EC9-496A-B931-0694C7B11DD2/72/48e3cdd8/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/IState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIPlayerJoinPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87F07016-7A76-4310-8CC6-1EF0492F958C/ae/4da9315b/Rigidbody.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -60,6 +77,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Extensions/ObjectExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayerView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Helpers/RagdollActivator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Player/EntityData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Player/Entity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Player/Actor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/IState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/IPredicate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/FuncPredicate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/ITransition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/BasePlayerState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/StateMachine.StateNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/StateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Actor.cs" />
       </list>
     </option>
   </component>
@@ -71,8 +100,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -107,14 +138,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1700921638916">
+    <state x="794" y="217" key="RiderGenerateDialog" timestamp="1702929667543">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1700921638916" />
+    <state x="794" y="217" key="RiderGenerateDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1702929667543" />
+    <state x="461" y="161" key="SettingsEditor" timestamp="1702930769352">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1702930769352" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1702926997533">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1702926997533" />
   </component>
 </project>

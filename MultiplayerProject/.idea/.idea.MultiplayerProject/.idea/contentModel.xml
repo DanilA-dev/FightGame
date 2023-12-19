@@ -43,19 +43,37 @@
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Core" t="Include">
+            <e p="Actor.cs" t="Include" />
+            <e p="ActorData.cs" t="Include" />
+            <e p="Entity.cs" t="Include" />
+            <e p="EntityData.cs" t="Include" />
             <e p="EntitySpawner.cs" t="Include" />
             <e p="Extensions" t="Include">
               <e p="ObjectExtensions.cs" t="Include" />
               <e p="Vector3Extensions.cs" t="Include" />
             </e>
-            <e p="Helpers" t="Include" />
-            <e p="PlayerController.cs" t="Include" />
-            <e p="PlayerInputSetter.cs" t="Include" />
-            <e p="PlayerView.cs" t="Include" />
+            <e p="Helpers" t="Include">
+              <e p="RagdollActivator.cs" t="Include" />
+            </e>
+            <e p="Player" t="Include">
+              <e p="PlayerController.cs" t="Include" />
+              <e p="PlayerInputSetter.cs" t="Include" />
+              <e p="PlayerView.cs" t="Include" />
+            </e>
           </e>
           <e p="Input" t="Include">
             <e p="CustomInputDevice.cs" t="Include" />
             <e p="InputRouter.cs" t="Include" />
+          </e>
+          <e p="StateMachine" t="Include">
+            <e p="BasePlayerState.cs" t="Include" />
+            <e p="FuncPredicate.cs" t="Include" />
+            <e p="IPredicate.cs" t="Include" />
+            <e p="IState.cs" t="Include" />
+            <e p="ITransition.cs" t="Include" />
+            <e p="StateMachine.cs" t="Include" />
+            <e p="StateMachine.StateNode.cs" t="Include" />
+            <e p="Transition.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="UIPlayerJoinContent.cs" t="Include" />
