@@ -11,9 +11,6 @@ GameObject:
   - component: {fileID: 8205496197610200221}
   - component: {fileID: 2522950956463324298}
   - component: {fileID: 4951716285789876192}
-  - component: {fileID: 895941028142029754}
-  - component: {fileID: 5087873047202831368}
-  - component: {fileID: 2051573772865583108}
   m_Layer: 0
   m_Name: PlayerBase
   m_TagString: Untagged
@@ -87,81 +84,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &895941028142029754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5973144070475411975}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d36e31dc8b094777a21d567876248e71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &5087873047202831368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5973144070475411975}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2a1b94252c75ca408ef447a96966af8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _moveSpeed: 500
-  _rotateSpeed: 600
-  _smoothTime: 0.25
-  _playerView: {fileID: 1847525915932994860}
---- !u!114 &2051573772865583108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5973144070475411975}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 9b3500a0e7c203349b1161c4a1009d0a,
-    type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 895941028142029754}
-        m_TargetAssemblyTypeName: Player.PlayerInputSetter, Assembly-CSharp
-        m_MethodName: Move
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: e5015f28-4703-44c8-9702-7aeeb3cf9a9a
-    m_ActionName: Movement/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/XInputControllerWindows/leftStick/up,/XInputControllerWindows1/leftStick/up,/XInputControllerWindows/leftStick/down,/XInputControllerWindows1/leftStick/down,/XInputControllerWindows/leftStick/left,/XInputControllerWindows1/leftStick/left,/XInputControllerWindows/leftStick/right,/XInputControllerWindows1/leftStick/right]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Movement
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!1001 &1038918194028081163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -234,14 +156,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8230766273605467533, guid: 413a1d22819f431ebb3ff91a05364000,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1847525915932994860}
-    - targetCorrespondingSourceObject: {fileID: 8230766273605467533, guid: 413a1d22819f431ebb3ff91a05364000,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8986480205512779614}
     - targetCorrespondingSourceObject: {fileID: 6037908809557531315, guid: 413a1d22819f431ebb3ff91a05364000,
         type: 3}
       insertIndex: -1
@@ -673,12 +587,6 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!95 &2447856751160233286 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 3427927787343281485, guid: 413a1d22819f431ebb3ff91a05364000,
-    type: 3}
-  m_PrefabInstance: {fileID: 1038918194028081163}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4732743638296891246 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5747982719788711781, guid: 413a1d22819f431ebb3ff91a05364000,
@@ -779,12 +687,6 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!4 &5548626234054663336 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4857788325937163427, guid: 413a1d22819f431ebb3ff91a05364000,
-    type: 3}
-  m_PrefabInstance: {fileID: 1038918194028081163}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &5908371251710353933 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6887194389461373446, guid: 413a1d22819f431ebb3ff91a05364000,
@@ -1436,36 +1338,3 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!1 &8958632481519504774 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8230766273605467533, guid: 413a1d22819f431ebb3ff91a05364000,
-    type: 3}
-  m_PrefabInstance: {fileID: 1038918194028081163}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1847525915932994860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8958632481519504774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54294305316b4edda3a797c87773711b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animator: {fileID: 2447856751160233286}
---- !u!114 &8986480205512779614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8958632481519504774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 559e172266bf19f44b1a22404a0a9722, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _baseRoot: {fileID: 8205496197610200221}
-  _boneRoot: {fileID: 5548626234054663336}
