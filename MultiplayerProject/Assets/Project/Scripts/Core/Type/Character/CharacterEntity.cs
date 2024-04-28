@@ -1,8 +1,7 @@
-﻿using Systems;
-using Systems.Interfaces;
-using CharacterFSM;
+﻿using CharacterFSM;
 using Core.Behaviour;
 using Core.Interfaces;
+using Core.Type;
 using CustomFSM.Preicate;
 using CustomFSM.StateMachine;
 using Extensions;
@@ -13,14 +12,12 @@ using View;
 namespace Core.Character
 {
     [RequireComponent(typeof(Rigidbody))]
-       
-    public class CharacterEntity : MonoBehaviour
+    public class CharacterEntity : Entity
     {
         [SerializeField] private CharacterMovementData _movementData;
         [SerializeField] private CharacterView _view;
         [SerializeField] private GroundChecker _groundChecker;
         
-        private IUserInput _input;
         private IMover _mover;
         
         private StateMachine _stateMachine;
@@ -34,16 +31,15 @@ namespace Core.Character
         private Vector3 _moveDir;
         private void Awake()
         {
+            if(!photonView.IsMine)
+                return;
+            
             _rigidbody = GetComponent<Rigidbody>();
             Init();
         }
 
         public void Init()
         {
-            _input = new UserInput(true);
-            _input.MoveDirection += HandleMovementVector;
-            _input.Jump += HandleJump;
-            
             _stateMachine = new StateMachine();
             _mover = new CharacterRigidBodyMover(_rigidbody);
             
@@ -82,29 +78,43 @@ namespace Core.Character
 
         private void Update()
         {
-            _input.Tick();
+            if(!photonView.IsMine)
+                return;
+            
             _stateMachine.OnUpdate();
         }
 
         private void FixedUpdate()
         {
+            if(!photonView.IsMine)
+                return;
+            
             _stateMachine.OnFixedUpdate();
             _groundChecker.UpdateGroundCheck();
         }
 
-        private void HandleMovementVector(Vector2 input)
+        public void HandleMovementVector(Vector2 input)
         {
+            if(!photonView.IsMine)
+                return;
+            
             _moveDir = new Vector3(input.x, 0, input.y);
             _mover.Direction = _moveDir;
         }
 
-        private void HandleJump()
+        public void HandleJump()
         {
+            if(!photonView.IsMine)
+                return;
+            
             _jumpState.JumpTimer.Start();
         }
 
         public void HandleInputRotation(float rotateSpeed)
         {
+            if(!photonView.IsMine)
+                return;
+            
             if(_moveDir == Vector3.zero)
                 return;
             

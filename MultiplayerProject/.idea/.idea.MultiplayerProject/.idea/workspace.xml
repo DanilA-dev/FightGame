@@ -20,100 +20,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e64f5ff7-0e69-4610-b32b-3b2ef753acf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/CharacterRigidBodyMover.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/CharacterRigidBodyMover.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/GroundChecker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/GroundChecker.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Interfaces.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Interfaces/IMover.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Interfaces/IMover.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Type.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Type/Character.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Type/Character/CharacterEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Type/Character/CharacterEntity.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Data/CharacterMovementData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Data/CharacterMovementData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Extensions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Extensions/TransformExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Extensions/TransformExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/Base.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/CharacterFSM.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/CharacterFSM/BaseCharacterState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/CharacterFSM/BaseCharacterState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/CharacterFSM/CharacterIdleState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/CharacterFSM/CharacterIdleState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/CharacterFSM/CharacterInAirState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/CharacterFSM/CharacterInAirState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/CharacterFSM/CharacterJumpState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/CharacterFSM/CharacterJumpState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/CharacterFSM/CharacterLandState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/CharacterFSM/CharacterLandState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/CharacterFSM/CharacterMoveState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/CharacterFSM/CharacterMoveState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Interfaces.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Interfaces/IUserInput.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Interfaces/IUserInput.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/RoomHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/RoomHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/UserInput.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/UserInput.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/View.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/View/CharacterView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/View/CharacterView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/View/RagdollHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/View/RagdollHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/CharacterInputService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/CharacterInputService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Type/Entity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Type/Entity.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/CharacterSpawnHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/CharacterSpawnHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/BaseEntityFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/BaseEntityFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/CharacterEntityFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/CharacterEntityFactory.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiplayerProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiplayerProject/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiplayerProject/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiplayerProject/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiplayerProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiplayerProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AssetStore/PartyMonsterRumblePBR/Animator/Default.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/PartyMonsterRumblePBR/Animator/Default.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Input.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Input/Input.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Input/Input.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Input/Input.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Input/Input.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/PlayerBase.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/PlayerBase.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/FuncPredicate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/FuncPredicate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/IPredicate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/IPredicate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/IState.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/IState.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/ITransition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/ITransition.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/StateMachine.StateNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/StateMachine.StateNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/StateMachine.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/StateMachine.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/Transition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/Transition.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced-Renderer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced-Renderer.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant-Renderer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant-Renderer.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/URP_Settings/URP-Balanced.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/URP_Settings/URP-Balanced.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/URP_Settings/URP-HighFidelity.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/URP_Settings/URP-HighFidelity.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/URP_Settings/URP-Performant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/URP_Settings/URP-Performant.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefab/PlayerBase.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefab/PlayerBase.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Type/Character/CharacterEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Type/Character/CharacterEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/RoomHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/RoomHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,11 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIPlayerJoinPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayerInputSetter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Extensions/Vector3Extensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Input/InputRouter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Extensions/ObjectExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayerView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Helpers/RagdollActivator.cs" />
@@ -152,7 +82,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Actor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FSM/StateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Interfaces/IInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/RoomHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Character/CharacterController.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/FSM/CharacterFSM/BaseCharacterState.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/CharacterFSM/Context/Character.cs" />
@@ -181,6 +110,12 @@
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/CharacterFSM/CharacterInAirState.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/CharacterFSM/CharacterJumpState.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/CharacterRigidBodyMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/CharacterInputService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Type/Entity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/BaseEntityFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/CharacterEntityFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/RoomHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/CharacterSpawnHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Type/Character/CharacterEntity.cs" />
       </list>
     </option>
@@ -194,15 +129,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../UnityBuilds/MultiplayerGame/M.G(0.01)\MultiplayerProject.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Program Files\Unity\UnityBuilds\MultiplayerGame\M.G(0.01)" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="84500">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="84500" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -237,6 +182,70 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1877" height="371" key="GridCell.Tab.0.bottom" timestamp="1714302239838">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1714302239838" />
+    <state width="1877" height="371" key="GridCell.Tab.0.center" timestamp="1714302239838">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1714302239838" />
+    <state width="1877" height="371" key="GridCell.Tab.0.left" timestamp="1714302239838">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1714302239838" />
+    <state width="1877" height="371" key="GridCell.Tab.0.right" timestamp="1714302239838">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1714302239838" />
+    <state width="1877" height="371" key="GridCell.Tab.1.bottom" timestamp="1714302239838">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1714302239838" />
+    <state width="1877" height="371" key="GridCell.Tab.1.center" timestamp="1714302239838">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1714302239838" />
+    <state width="1877" height="371" key="GridCell.Tab.1.left" timestamp="1714302239838">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1714302239838" />
+    <state width="1877" height="371" key="GridCell.Tab.1.right" timestamp="1714302239838">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1714302239838" />
+    <state width="1877" height="371" key="GridCell.Tab.2.bottom" timestamp="1714302239838">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.2.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1714302239838" />
+    <state width="1877" height="371" key="GridCell.Tab.2.center" timestamp="1714302239838">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.2.center/0.0.1920.1032@0.0.1920.1032" timestamp="1714302239838" />
+    <state width="1877" height="371" key="GridCell.Tab.2.left" timestamp="1714302239838">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.2.left/0.0.1920.1032@0.0.1920.1032" timestamp="1714302239838" />
+    <state width="1877" height="371" key="GridCell.Tab.2.right" timestamp="1714302239838">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.2.right/0.0.1920.1032@0.0.1920.1032" timestamp="1714302239838" />
+    <state width="1877" height="371" key="GridCell.Tab.3.bottom" timestamp="1714302239838">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.3.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1714302239838" />
+    <state width="1877" height="371" key="GridCell.Tab.3.center" timestamp="1714302239838">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.3.center/0.0.1920.1032@0.0.1920.1032" timestamp="1714302239838" />
+    <state width="1877" height="371" key="GridCell.Tab.3.left" timestamp="1714302239838">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.3.left/0.0.1920.1032@0.0.1920.1032" timestamp="1714302239838" />
+    <state width="1877" height="371" key="GridCell.Tab.3.right" timestamp="1714302239838">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.3.right/0.0.1920.1032@0.0.1920.1032" timestamp="1714302239838" />
     <state x="794" y="217" key="RiderGenerateDialog" timestamp="1714145712989">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
